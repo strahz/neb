@@ -2,7 +2,7 @@ import pyodbc
 import pandas as pd
 
 db_driver = '{Microsoft Access Driver (*.mdb, *.accdb)}'
-db_path = r"C:\Users\Wesley.Brazas\Music\endurance\Database1.accdb"
+db_path = r"C:\Users\.accdb"
 conn_str = (rf'DRIVER={db_driver};'
             rf'DBQ={db_path};')
 
